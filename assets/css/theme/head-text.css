@@ -1,0 +1,184 @@
+/*colors
+h1 color #ffffff
+p color #97a4be
+button hover #00fff0
+button font #e2e3e6     */
+
+
+/*------------  HAMBURGER MENU   -----------------*/
+
+div.second > div.container-fluid > div.row > div[js-hamburger-menu] {
+	padding-top: 30px;
+}
+
+div.second > div.container-fluid > div.row > div[js-hamburger-menu] > nav > ul {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+div.second > div.container-fluid > div.row > div[js-hamburger-menu] > nav > ul > li {
+	margin: 10px 0;
+}
+
+div.second > div.container-fluid > div.row > div[js-hamburger-menu] > nav > ul > li > a {
+	box-sizing: border-box;
+	color: #1dd2d6;
+	text-decoration: none;
+	padding: 8px 25px;
+	transition: .3s;
+}
+
+div.second > div.container-fluid > div.row > div[js-hamburger-menu] > nav > ul > li > a:hover {
+	background-color: #1dd2d6;
+	color: #223047;
+	border-radius: 7px;
+}
+
+/*------------------- TEXT ------------------------------*/
+
+
+div.second {
+	min-height: 630px;
+	box-sizing: border-box;
+	padding-top: 195px;
+}
+
+div.second > div.container-fluid {
+}
+
+div.second > div.container-fluid > div.row {
+	background-color: #223047;
+}
+
+div.second > div.container-fluid > div.row > [class*="col-"] {
+	min-height: 400px;
+}
+
+div.second > div.container-fluid > div.row > [class^="header-text"] {
+	padding: 0 50px 0 100px;
+	display: flex;
+	flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 55px;
+}
+
+div.second > div.container-fluid > div.row > [class^="header-text-l"] > h1 {
+	color: #fff;
+	display: inline-block;
+	font-family: 'dosis';
+	font-weight: 600;
+	font-size: 1.5em;
+	margin: 0;
+}
+
+div.second > div.container-fluid > div.row > [class^="header-text-l"] > p {
+	color: #97a4be;
+}
+
+div.second > div.container-fluid > div.row > [class^="header-text-l"] > div {
+
+}
+
+div.second > div.container-fluid > div.row > [class^="header-text-l"] > div > a {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 9px;
+	text-decoration: none;
+	min-height: 40px;
+	color: #fff;
+	border: 1px solid #97a4be;
+	border-radius: 7px;
+	font-family: 'roboto';
+	margin: 0 25px 25px 5px;
+	transition: .3s;
+}
+
+div.second > div.container-fluid > div.row > [class^="header-text-l"] > div > a:hover {
+	color: #223047;
+	background-color: #00fff0;
+}
+
+div.second > div.container-fluid > div.row > [class^="header-text-r"] {
+	position: relative;
+}
+
+div.second > div.container-fluid > div.row > [class^="header-text-r"] > div {
+	background: transparent url('../../img/iphone.svg') no-repeat center center;
+	background-size: cover;
+	height: 550px;
+	width: 270px;
+	position: absolute;
+	bottom: -95px;
+}
+
+
+/*-----------------------------------*/
+/*-------------HAMBURGER-------------*/
+/*-----------------------------------*/
+
+div.second > div.container-fluid > div.row > div[js-hamburger-menu] {
+	display: none;
+	width: 100%;
+	min-height: 100px;
+	background-color: #223047;
+	position: relative;
+	top: 0;
+}
+
+
+/*-----------------------------------*/
+/*------------ MEDIA  ---------------*/
+/*-----------------------------------*/
+
+
+
+@media only screen and (max-width: 768px) {
+
+	div.second {
+		min-height: 300px;
+		box-sizing: border-box;
+		padding-top: 0;
+	}
+
+	div.second > div.container-fluid > div.row > [class^="header-text"] {
+		padding: 15px;
+		display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    align-items: center;
+	}
+
+	div.second > div.container-fluid > div.row > [class^="header-text-l"] {
+		padding-top: 25px;
+	}
+
+	div.second > div.container-fluid > div.row > [class^="header-text-r"] {
+		display: none;
+	}
+
+	/*-----------------------------------*/
+	/*-------------HAMBURGER-------------*/
+
+	div.second > div.container-fluid > div.row > div[js-hamburger-menu] {
+		display: none;
+	}
+
+	div.second > div.container-fluid > div.row > div.open[js-hamburger-menu] {
+		display: block;
+	}
+}
+
+/*-----------------------------------*/
+/*------------ MEDIA  992  ----------*/
+/*-----------------------------------*/
+
+
+@media only screen and (max-width: 992px) {
+	div.second > div.container-fluid > div.row > [class^="header-text-r"] {
+		display: none;
+	}
+}

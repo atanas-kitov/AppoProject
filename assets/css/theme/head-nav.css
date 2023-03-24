@@ -1,0 +1,142 @@
+/*colors
+font - #00fff0
+background - #223047  */
+
+
+header {
+	background-color: #223047;
+}
+
+div.wrap {
+	box-sizing: border-box;
+	min-height: 70px;
+	border-bottom: 1px solid #4e596c;
+}
+
+div.wrap > div.shell {
+	
+}
+
+div.wrap > div.shell > div.container-fluid {
+	
+}
+
+div.wrap > div.shell > div.container-fluid > div.row {
+	
+}
+
+div.wrap > div.shell > div.container-fluid > div.row > [class^="col-"] {
+	box-sizing: border-box;
+	min-height: 70px;
+	display: flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+/*-----------------------------*/
+/*-------------LOGO------------*/
+/*-----------------------------*/
+
+
+div.wrap > div.shell > div.container-fluid > div.row > div.head-l {
+	justify-content: flex-start;
+}
+
+div.wrap > div.shell > div.container-fluid > div.row > div.head-l > [id="logo"] {
+	display: inline-block;
+	text-decoration: none;
+	width: 85px;
+	height: 35px;
+}
+
+
+div.wrap > div.shell > div.container-fluid > div.row > div.head-l > [id="logo"] > img {
+	display: inline-block;
+	width: 85px;
+	height: 35px;
+}
+
+
+/*-----------------------------*/
+/*---------Navigation----------*/
+/*-----------------------------*/
+
+
+div.wrap > div.shell > div.container-fluid > div.row > div.head-mid {
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+}
+
+div.wrap > div.shell > div.container-fluid > div.row > div.head-mid > nav {
+}
+
+div.wrap > div.shell > div.container-fluid > div.row > div.head-mid > nav > ul {
+}
+
+div.wrap > div.shell > div.container-fluid > div.row > [class^="col-"] > nav > ul > li {
+	display: inline-block;
+}
+
+div.wrap > div.shell > div.container-fluid > div.row > [class^="col-"] > nav > ul > li > a {
+	box-sizing: border-box;
+	color: #1dd2d6;
+	text-decoration: none;
+	padding: 8px 25px;
+	transition: .3s;
+}
+
+div.wrap > div.shell > div.container-fluid > div.row > [class^="col-"] a[class="nav-but"]:hover {
+	background-color: #1dd2d6;
+	color: #223047;
+	border-radius: 7px;
+}
+
+div.wrap > div.shell > div.container-fluid > div.row > div.head-r {
+	justify-content: flex-end;
+}
+
+div.wrap > div.shell > div.container-fluid > div.row > div.head-r > a[class="hamburger"] {
+	display: none;
+}
+
+div.wrap > div.shell > div.container-fluid > div.row > div.head-r > a {
+	display: inline-block;
+	color: #1dd2d6;
+	text-decoration: none;
+	padding: 8px 25px;
+	transition: .3s;
+}
+
+
+/*-----------------------------------*/
+/*------------ MEDIA  ---------------*/
+/*-----------------------------------*/
+
+
+
+@media only screen and (max-width: 768px) {
+
+	div.wrap > div.shell > div.container-fluid > div.row > div.head-mid {
+		display: none;
+	}
+
+	div.wrap > div.shell > div.container-fluid > div.row > div.head-r {
+		justify-content: center;
+	}
+	div.wrap > div.shell > div.container-fluid > div.row > div.head-r > a[class="hamburger"] {
+		display: block;
+	}
+
+	div.wrap > div.shell > div.container-fluid > div.row > div.head-r > a[class="nav-but"] {
+		display: none;
+	}
+
+	div.wrap > div.shell > div.container-fluid > div.row {
+		display: flex;
+	}
+
+	div.wrap > div.shell > div.container-fluid > div.row > div.head-l {
+		justify-content: center;
+	}

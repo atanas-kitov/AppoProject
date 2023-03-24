@@ -1,0 +1,31 @@
+h1,h2,h3 {
+	font-family: 'roboto';
+	font-weight: bolder;
+	font-size: 1.4em;
+	text-shadow: 1px 1px 2px rgba(180, 180, 180, 0.3);
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+h3 {
+	font-size: 1.1em;
+}
+
+p, div {
+	font-family: 'dosis';
+	font-size: 1em;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px rgba(180, 180, 180, 0.3);
+}
+
+a {
+	font-family: 'roboto';
+	font-weight: normal;
+	text-shadow: 1px 1px 2px rgba(180, 180, 180, 0.3);
+}
+
+i {
+	text-shadow: 1px 1px 2px rgba(180, 180, 180, 0.3);
+}

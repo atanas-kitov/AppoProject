@@ -1,0 +1,176 @@
+div.content-9 {
+	min-height: 700px;
+	background-color: #f5f6fa;
+}
+
+div.content-9 > div.container-fluid {
+	height: 100%;
+	min-height: 700px;
+}
+
+div.content-9 > div.container-fluid > div.c-9-top {
+	height: 100%;
+	min-height: 700px;
+	
+}
+
+div.content-9 > div.container-fluid > div.c-9-top > div.c-9-l {
+	min-height: 700px;
+	position: relative;
+}
+
+div.content-9 > div.container-fluid > div.c-9-top > div.c-9-l > div.c-9-l-img1 {
+	background: #f5f6fa url('../../img/iphone.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 510px;
+	width: 250px;
+	top: 95px;
+	left: 100px;
+	position: relative;
+}
+
+div.content-9 > div.container-fluid > div.c-9-top > div.c-9-l > div.c-9-l-img2 {
+	background: #f5f6fa url('../../img/iphone.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 390px;
+	width: 192px;
+	position: absolute;
+	top: 150px;
+	left: 290px;
+}
+
+div.content-9 > div.container-fluid > div.c-9-top > div.c-9-text {
+	min-height: 700px;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 110px;
+}
+
+div.content-9 > div.container-fluid > div.c-9-top > div.c-9-text > h2 {
+	margin-bottom: 40px;
+}
+
+div.content-9 > div.container-fluid > div.c-9-top > div.c-9-text > p {
+	margin-bottom: 60px;
+}
+
+div.content-9 > div.container-fluid > div.c-9-top > div.c-9-text > div.c-9-a {
+
+}
+
+
+/*------------------------------------------------*/
+/*------- Goole Play and Apple Store buttons -----*/
+/*------------------------------------------------*/
+
+div.content-9 > div.container-fluid > div.row > div.c-9-text > div.c-9-a > a {
+	display: inline-block;
+	text-decoration: none;
+	background-color: #000;
+	color: #fff;
+	width: 140px;
+	height: 40px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	font-family: 'archivo';
+	font-weight: normal;
+	box-shadow: 0 1px 2px -2px rgba(0, 0, 0, 0.3),
+				0 2px 2px 2px rgba(0, 0, 0, 0.15);
+	transition: .3s;
+}
+
+div.content-9 > div.container-fluid > div.row > div.c-9-text > div.c-9-a > a:hover {
+	background-color: #444;
+	box-shadow: 0 1px 2px -2px rgba(0, 0, 0, 0.3),
+				0 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+div.content-9 > div.container-fluid > div.row > div.c-9-text > div.c-9-a > a > i {
+	font-size: 30px;
+	margin-right: 10px;
+}
+
+/*-------------------------------------------*/
+/*--------------- GET THE APP ---------------*/
+/*-------------------------------------------*/
+
+
+div.content-9 > div.container-fluid > div.row.c-9-bot {
+	min-height: 70px;
+	
+}
+
+div.content-9 > div.container-fluid > div.row > div.c-9-bot-box {
+	min-height: 70px;
+	bottom: -35px;
+	text-align: center;
+	line-height: 70px;
+	box-sizing: border-box;
+	background-color: #00fff0;
+	border-radius: 3px;
+	border-color: #aff9f7;
+	box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.30),
+				0 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+div.content-9 > div.container-fluid > div.row > div.c-9-bot-box > h2 {
+	display: inline-block;
+	color: #111;
+	font-weight: normal;
+	vertical-align: middle;
+}
+
+
+/*------------------------------------------------*/
+/*----------------- MEDIA ------------------------*/
+/*------------------------------------------------*/
+
+
+@media only screen and (max-width: 993px) {
+
+	
+	div.content-9 {
+		min-height: 350px;
+		max-height: 500px;
+	}
+
+
+	div.content-9 > div.container-fluid {
+		min-height: 350px;
+		max-height: 500px;
+
+	}
+
+	div.content-9 > div.container-fluid > div.c-9-top {
+		min-height: 350px;
+		max-height: 500px;
+	}
+
+	div.content-9 > div.container-fluid > div.c-9-top > div.c-9-l {
+		display: none;
+	}
+
+	div.content-9 > div.container-fluid > div.c-9-top > div.c-9-text {
+		min-height: 350px;
+		max-height: 400px;
+		box-sizing: border-box;
+		display: flex;
+   	 	flex-direction: column;
+    	flex-wrap: nowrap;
+    	justify-content: flex-start;
+    	align-items: center;
+		padding: 15px;
+		padding-top: 40px;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+}

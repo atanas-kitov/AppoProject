@@ -1,0 +1,62 @@
+div.content-2 {
+	background-color: #f5f6fa;
+	min-height: 530px;
+}
+
+div.content-2 > div.container-fluid {
+	
+}
+
+div.content-2 > div.container-fluid > div.row {
+	
+}
+
+div.content-2 > div.container-fluid > div.row > [class^="col-"] {
+	min-height: 530px;
+}
+
+div.content-2 > div.container-fluid > div.row > div.c-2-l {
+
+}
+
+div.content-2 > div.container-fluid > div.row > [class^="col-"] > div.c-2-l-img {
+	background: #f5f6fa url('../../img/content-2.jpg') no-repeat center center;
+	background-size: cover;
+	min-height: 530px;
+}
+
+div.content-2 > div.container-fluid > div.row > div.c-2-r {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding-right: 90px;
+}
+
+div.content-2 > div.container-fluid > div.row > div.c-2-r > h2 {
+	margin-bottom: 50px;
+}
+
+/*-----------------------------------*/
+/*------------ MEDIA  ---------------*/
+/*-----------------------------------*/
+
+
+
+@media only screen and (max-width: 768px) {
+
+	div.content-2 > div.container-fluid > div.row > div.c-2-r {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+	    flex-wrap: nowrap;
+	    align-items: center;
+	    padding: 15px;
+	}
+
+	div.content-2 > div.container-fluid > div.row > div.c-2-r > p {
+		text-align: center;
+	}
+}

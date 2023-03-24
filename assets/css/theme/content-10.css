@@ -1,0 +1,67 @@
+div.content-10 {
+	min-height: 350px;
+}
+
+div.content-10 > div.container-fluid {
+	
+	
+}
+
+div.content-10 > div.container-fluid > div.row > [class^="col"] {
+	display: flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 135px;
+}
+
+div.content-10 > div.container-fluid > div.row > [class^="col"] > div.c-10-top-col {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+div.content-10 > div.container-fluid > div.row > [class^="col"] > div.c-10-top-col > h3 {
+	margin-bottom: 30px;
+}
+
+div.content-10 > div.container-fluid > div.row > [class^="col"] > div.c-10-top-col > a {
+	margin-bottom: 20px;
+	text-decoration: none;
+	color: #97a4be;
+	transition: .3s;
+}
+
+div.content-10 > div.container-fluid > div.row > [class^="col"] > div.c-10-top-col > a:hover {
+	color: #333;
+	font-weight: bolder;
+}
+
+
+/*------------------------------------*/
+/*------------- MEDIA  ---------------*/
+/*------------------------------------*/
+
+
+@media only screen and (max-width: 768px) {
+
+	div.content-10 > div.container-fluid > div.row > [class^="col"] {
+		display: flex;
+		flex-direction: column;
+	}
+
+	div.content-10 > div.container-fluid > div.row > [class^="col"] > div.c-10-top-col {
+		margin-bottom: 40px;
+	}
+
+	div.content-10 > div.container-fluid > div.row > [class^="col"] > div.c-10-top-col > h3 {
+		margin-bottom: 15px;
+	}
+
+	div.content-10 > div.container-fluid > div.row > [class^="col"] > div.c-10-top-col > a {
+		margin-bottom: 8px;
+		text-decoration: none;
+		color: #97a4be;
+		transition: .3s;
+	}
+}

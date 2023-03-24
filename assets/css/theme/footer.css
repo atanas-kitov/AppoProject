@@ -1,0 +1,80 @@
+footer {
+	background-color: #223047;
+	box-sizing: border-box;
+	height: 100px;
+	padding: 10px;
+	margin-top: 100px;
+}
+
+footer > div.container-fluid {
+	height: 100%;
+}
+
+footer > div.container-fluid > div.row {
+	height: 100%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+footer > div.container-fluid > div.row > div.foot-l {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 25px;
+}
+
+footer > div.container-fluid > div.row > div.foot-l > p {
+	color: #00fff1;
+}
+
+footer > div.container-fluid > div.row > div.foot-r {
+	height: 100%;
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    gap: 50px;
+}
+
+footer > div.container-fluid > div.row > div.foot-r > a {
+	color: #fff;
+	font-size: 1.4em;
+	transition: .3s;
+}
+
+footer > div.container-fluid > div.row > div.foot-r > a:hover {
+	color: #91F1FF;
+}
+
+/*-----------------------------------*/
+/*------------ MEDIA  ---------------*/
+/*-----------------------------------*/
+
+
+
+@media only screen and (max-width: 768px)  {
+
+footer > div.container-fluid > div.row {
+	display: flex;
+	flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+footer > div.container-fluid > div.row > div[class^="col-"] {
+	width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+}

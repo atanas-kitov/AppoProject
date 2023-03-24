@@ -1,0 +1,59 @@
+div.modal-screen {
+	background-color: rgba(7, 1, 15, 0.8);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+
+}
+
+div.modal-screen > div.modal {
+	position: relative;
+	width: 40%;
+	min-height: 200px;
+	background-color: #eee;
+	border-radius: 5px;
+	margin: 0 auto;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 10px;
+	box-shadow: 0 0 2px -2px rgba(0, 0, 0, 0.35),
+				0 0 3px 2px rgba(0, 0, 0, 0.35);
+	box-sizing: border-box;
+}
+
+div.modal-screen > div.modal > div.close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	box-sizing: border-box;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	transition: 0.3s;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+div.modal-screen > div.modal > div.close:hover {
+	background-color: #444;
+	color: #eee;
+	border: 1px solid transparent;
+	border-radius: 50px;
+}
+
+div.modal-screen > div.modal > div.close > i {
+	font-size: 25px;
+	line-height: 28px;
+}
+
+div.modal-screen > div.modal > h2 {
+	text-align: center;
+	padding: 40px 10px 10px 10px;
+}
+
+div.modal-screen > div.modal > p {
+	text-align: center;
+	padding: 10px;
+}

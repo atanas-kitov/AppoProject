@@ -1,0 +1,56 @@
+div.content-6 {
+	background: #fff url(../../img/header-cover.jpg) no-repeat center center;
+	min-height: 680px;
+	background-size: cover;
+}
+
+div.content-6 > div.container-fluid {
+	height: 100%;
+}
+
+div.content-6 > div.container-fluid > div.row {
+	height: 100%;
+}
+
+div.content-6 > div.container-fluid > div.row > div.c-6 {
+	box-sizing: border-box;
+	padding-top: 200px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+div.content-6 > div.container-fluid > div.row > div.c-6 > button {
+	background-color: transparent;
+	border: none;
+	border-radius: 15px;
+	margin-bottom: 30px;
+
+	transition: .3s;
+}
+
+div.content-6 > div.container-fluid > div.row > div.c-6 > button:hover {
+	transform: scale(1.2);
+}
+
+div.content-6 > div.container-fluid > div.row > div.c-6 > h3 {
+	color: #fff;
+	font-weight: normal;
+	margin-bottom: 50px;
+
+}
+
+div.content-6 > div.container-fluid > div.row > div.c-6 > p {
+	color: #fff;
+	padding: 0 10px;
+	text-align: center;
+}
+
+/*-----------------------------------*/
+/*------------ MEDIA  ---------------*/
+/*-----------------------------------*/
+
+

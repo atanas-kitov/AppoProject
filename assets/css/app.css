@@ -1,0 +1,21 @@
+@import url('reset.css');
+@import url('bootstrap.css');
+@import url('general.css');
+@import url('fonts.css');
+@import url('text.css');
+
+@import url('theme/head-nav.css');
+@import url('theme/head-text.css');
+@import url('theme/content-1.css');
+@import url('theme/content-2.css');
+@import url('theme/content-3.css');
+@import url('theme/content-4.css');
+@import url('theme/content-5.css');
+@import url('theme/content-6.css');
+@import url('theme/content-7.css');
+@import url('theme/content-8.css');
+@import url('theme/content-9.css');
+@import url('theme/content-10.css');
+@import url('theme/content-11.css');
+@import url('theme/footer.css');
+@import url('theme/modal.css');

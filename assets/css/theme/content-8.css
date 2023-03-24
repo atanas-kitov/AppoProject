@@ -1,0 +1,27 @@
+div.content-8 {
+	background-color: #223047;
+	min-height: 350px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+div.content-8 > p {
+	max-width: 775px;
+	color: #97a4be;
+	text-align: center;
+}
+
+/*-----------------------------------*/
+/*------------ MEDIA  ---------------*/
+/*-----------------------------------*/
+
+
+
+@media only screen and (max-width: 768px) {
+
+	div.content-8 > p {
+		padding: 15px;
+	}
+}

@@ -1,0 +1,60 @@
+div.content-7 {
+	min-height: 645px;
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div.content-7 > h2 {
+	margin-top: 250px;
+	text-align: center;
+}
+
+div.content-7 > p {
+	margin-top: 40px;
+	text-align: center;
+}
+
+div.content-7 > a {
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: center;
+	/*padding: 17px 40px 25px 50px;*/
+	padding-top: 15px;
+	width: 175px;
+	height: 50px;
+	margin-top: 70px;
+	font-weight: bolder;
+	text-decoration: none;
+	color: #222;
+	border-radius: 3px;
+	background-color: #00fff0;
+	box-shadow: 0 1px 2px -2px rgba(0, 0, 0, 0.3),
+				0 2px 2px 2px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	transition: .3s;
+
+}
+
+div.content-7 > a:hover {
+	background-color: #0BE7DA;
+	border-radius: 1px solid #88fff9;
+}
+
+/*-----------------------------------*/
+/*------------ MEDIA  ---------------*/
+/*-----------------------------------*/
+
+
+
+@media only screen and (max-width: 768px) {
+
+	div.content-7 {
+		min-height: 450px;
+	}
+
+	div.content-7 > h2 {
+		margin-top: 100px;
+	}
+}

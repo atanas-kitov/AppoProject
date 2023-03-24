@@ -1,0 +1,108 @@
+/*colors:
+bg: #f5f6fa;
+*/
+
+
+div.content-5 {
+	background-color: #f5f6fa;
+	min-height: 530px;
+	padding-top: 145px;
+	box-sizing: border-box;
+}
+
+div.content-5 > div.container-fluid {
+	min-height: 390px;
+	
+}
+
+div.content-5 > div.container-fluid > div.row {
+	min-height: 390px;
+}
+
+div.content-5 > div.container-fluid > div.row > div.c-5-text {
+	min-height: 390px;
+	box-sizing: border-box;
+	padding-right: 100px;
+	display: flex;
+	flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+div.content-5 > div.container-fluid > div.row > div.c-5-text > h2 {
+	margin-bottom: 45px;
+}
+
+div.content-5 > div.container-fluid > div.row > div.c-5-text > div > h3 {
+	line-height: 25px;
+	margin-bottom: 25px;
+}
+
+div.content-5 > div.container-fluid > div.row > div.c-5-text > div > h3 > i {
+	font-size: 16px;
+	color: #00fff0;
+	margin: 7px;
+}
+
+div.content-5 > div.container-fluid > div.row > div.c-5-text > div {
+	margin-right: 35px;
+}
+
+div.content-5 > div.container-fluid > div.row > div.c-5-text > p {
+	margin-top: 15px;
+	text-align: right;
+}
+
+/*------------------------------------------------*/
+/*---------------------  IMG  --------------------*/
+
+
+div.content-5 > div.container-fluid > div.row > div.c-5-r {
+	min-height: 390px;
+}
+
+div.content-5 > div.container-fluid > div.row > div.c-5-r > div.c-5-img {
+	max-width: 500px;
+	min-height: 390px;
+	margin: 0 auto;
+	background: #f5f6fa url('../../img/content-5-1.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+
+/*-----------------------------------*/
+/*------------ MEDIA  ---------------*/
+/*-----------------------------------*/
+
+
+
+@media only screen and (max-width: 993px) {
+
+	div.content-5 {
+		padding-top: 50px;
+	}
+
+	div.content-5 > div.container-fluid > div.row > div.c-5-text {
+		display: flex;
+		flex-direction: column;
+	    flex-wrap: nowrap;
+	    align-items: center;
+	    text-align: center;
+	    padding: 0 15px;
+	}
+
+	div.content-5 > div.container-fluid > div.row > div.c-5-text > p {
+		text-align: center;
+	}
+
+	div.content-5 > div.container-fluid > div.row > div.c-5-text > div {
+		margin-right: 0;
+	}
+
+}
